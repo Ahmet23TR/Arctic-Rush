@@ -19,7 +19,6 @@ public class CrashDetector : MonoBehaviour
             crashEffect.Play();
             GetComponent<AudioSource>().PlayOneShot(crashSFX);
             Invoke("reloadLevel", reloadDelay);
-            
         }
     }
 
